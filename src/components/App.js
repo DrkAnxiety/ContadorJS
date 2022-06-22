@@ -1,5 +1,5 @@
-import './App.css';
-import Contador from './components/Contador';
+import '../styleSheets/App.css';
+import Contador from './Contador';
 
 function App() {
 
