@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Boton from './Boton';
 import '../styleSheets/Contador.css';
-import { useState } from 'react';
 
 function Contador() {
 
@@ -26,11 +25,11 @@ function Contador() {
             <Boton
                 nameButton='Click'
                 isContador={true}
-                fun={clickFunction} />
+                clickFunction={clickFunction} />
             <Boton
                 nameButton='Restart'
                 isContador={false}
-                fun={restartFunction} />
+                clickFunction={restartFunction} />
         </div>
     );
 }
